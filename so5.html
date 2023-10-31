@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+    <style>
+        .name-list {
+            list-style-type: style type none;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.getElementById("btn3")
+        .addEventListener('click'), function(){
+            let temp = document.getElementById("a3").innerHTML;
+            document.getElementById("a3").innerHTML = temp + "<b>test1</b> test2"
+        }
+    </script>
+    <input type="text" id = "firstname" placeholder="نام">
+    <input type="text" id = "lastname" placeholder="نام خانوادگی">
+    <button onclick="addname()">افزودن نام</button>
+    <ul id="namelist" class="namelist"></ul>
+    <script src="script.js"></script>
+   
+   
+</body>
+</html>
+
